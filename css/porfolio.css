@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css?family=Euphoria+Script&display=swap");
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  scroll-padding-top: 50px;
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#navbar {
+  z-index: 9999;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  margin-bottom: 2%;
+  background: linear-gradient(to left, rgb(218, 10, 10), rgb(26, 4, 102));
+}
+
+#topLayerBg {
+  background-image: url(../images/crashedPlane.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#welcome-section {
+  background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(217, 217, 223));
+  opacity: 0.7;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+  height: 100vh;
+}
+
+.main-section {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 5%;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+#mt {
+  color: rgb(255, 255, 255);
+  filter: invert(1) grayscale(1) contrast(9)
+}
+
+.googFont {
+  font-family: "Euphoria Script", cursive;
+}
+
+.md-progress {
+  box-shadow: none;
+  position: relative;
+  display: block;
+  width: 95%;
+  height: 0.25rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  background-color: #eee;
+}
+
+.progress-bar {
+    height: .4rem;
+    color: #fff;
+    background-color: #3f51b5;
+}
+
+.main-section-2 {
+  margin-top: 5%;
+}
+
+.parallax {
+  background-image: url(../images/CodingWallpaper.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  width: auto;
+}
+
+#parallax-2 {
+  position: relative;
+  z-index: 10;
+  background-image: linear-gradient(to left, indigo, blue);
+  opacity: 0.5;
+  height: 500px;
+}
+
+.para-txt-pt {
+  position: relative;
+  z-index: 50;
+  margin-top: -500px;
+  padding-top: 15%;
+}
+
+#projects {
+  margin-bottom: 5%;
+}
+
+#card-img-landingPage {
+  background-image: url(../images/landingPageInsta.jpg);
+}
+
+#card-img-tributePage {
+  background-image: url(../images/tributePageInsta.jpg);
+}
+
+#card-img-techDocs {
+  background-image: url(../images/technicalDocumentationInsta.jpg);
+}
+
+.mtCardLink {
+  margin-top: 200px;
+  margin-bottom: 10%;
+}
+
+#row {
+  padding-top: 5%;
+  padding-bottom: 6%;
+}
+
+#bgImg {
+  background-image: linear-gradient(to left, indigo, rgb(207, 13, 13));
+  min-height: 300px;
+}
+
+#bgImgTxt {
+  font-size: 2.5em;
+  letter-spacing: 4px;
+}
+
+.rgba-green-strong {
+  position: relative;
+  z-index: 10;
+}
+
+#contactBody {
+  position: relative;
+  z-index: 35;
+  background: white;
+  min-height: 200px;
+  margin-top: -40px;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+  padding: 15px;
+}
+
+#pTxt {
+  font-size: 1.5em;
+  letter-spacing: 2px;
+}
+
+.btn-floating {
+    position: relative;
+    display: inline-block;
+    background-color: #55acee !important;
+    font-size: 2rem;
+    margin: 10px;
+    vertical-align: middle;
+    transition: all 0.2s ease-in-out;
+    border-radius: 50%;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.btn-floating-f {
+    position: relative;
+    display: inline-block;
+    background-color: blue !important;
+    font-size: 2.0rem;
+    width: 62px;
+    height: 62px;
+    margin: 10px;
+    vertical-align: middle;
+    transition: all 0.2s ease-in-out;
+    border-radius: 50%;
+}
+
+.fa-facebook-f {
+  color: white;
+}
+
+.btn-floating-li {
+    position: relative;
+    display: inline-block;
+    background-color: #0082ca !important;
+    font-size: 2.0rem;
+    width: 62px;
+    height: 62px;
+    margin: 10px;
+    vertical-align: middle;
+    transition: all 0.2s ease-in-out;
+    border-radius: 50%;
+}
+
+.fa-linkedin-in {
+  color: white;
+}
+
+.btn-floating-git {
+    position: relative;
+    display: inline-block;
+    background-color: black !important;
+    font-size: 2.0rem;
+    width: 62px;
+    height: 62px;
+    margin: 10px;
+    vertical-align: middle;
+    transition: all 0.2s ease-in-out;
+    border-radius: 50%;
+}
+
+.fa-github {
+  color: white;
+}
+
+#devSkills {
+  padding-left: 35px;
+}
+
+#fcc_test_suite_wrapper {
+  z-index: 9999999 !important;
+}
+
+@media only screen and (max-width: 900px) {
+
+  html,
+  body {
+    scroll-padding-top: 185px; /*the scroll-padding-top allows the anchor links to work properly. it takes the height of the sticky navbar*/
+  }
+
+  #devSkills {
+    padding-left: 35px;
+  }
+
+  .para-txt-pt {
+    margin-top: -420px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .mediaQueMarg {
+    margin-top: 5%;
+  }
+
+  .para-txt-pt {
+    margin-top: -400px;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  #viaMt {
+    margin-bottom: 8%;
+  }
+}
