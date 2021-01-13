@@ -1,2 +1,2 @@
 # Danel Agbey Portfolio Site
-[This site has been moved to](https://daniel-agbey-porfolio.herokuapp.com/)
+[This site has been moved here](https://daniel-agbey-porfolio.herokuapp.com/)
